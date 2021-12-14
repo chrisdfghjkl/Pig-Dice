@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(47, 95, 104);
+}
+
+.header {
+  font-size: 72px;
+  text-align: center;
+  color: pink;
+  text-shadow: -2px 0 darkred, 0 2px darkred, 2px 0 darkred, 0 -2px darkred;
+}
+
+.player1-turn {
+  color: rgb(55, 223, 55);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.player2-turn {
+  color: rgb(55, 223, 55);
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  display: none;
+}
+
+.col-md-5 {
+  display: none;
+  border: 2px solid #eeee;
+  background-color: #eeee;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 10px 10px
+}
+
+#banner-p1 {
+  text-align: center;
+  font-size: 72px;
+  border: 2px solid #eeee;
+  background-color: #eeee;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  color: red;
+  text-shadow: -2px 0 rgb(33, 20, 214), 0 2px rgb(33, 20, 214), 2px 0 rgb(33, 20, 214), 0 -2px rgb(33, 20, 214);
+  box-shadow: 10px 10px;
+  display: none;
+}
+
+#banner-p2 {
+  text-align: center;
+  font-size: 72px;
+  border: 2px solid #eeee;
+  background-color: #eeee;
+  border-radius: 5px;
+  margin: auto;
+  padding: 10px;
+  color: rgb(33, 20, 214);
+  text-shadow: -2px 0 red, 0 2px red, 2px 0 red, 0 -2px red;
+  box-shadow: 10px 10px;
+  display: none;
+}
+
+#new-game {
+  display: none;
+}

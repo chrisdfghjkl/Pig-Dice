@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pig Dice</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="header">Pig Dice</h1>
+      <hr>
+      <div class="text-center">
+        <button id="start-game" style="margin-top: 15px;" type="button" class="btn btn-success">Start!</button>
+        <button id="new-game" style="margin-top: 15px;" type="reset" class="btn btn-warning">New Game!</button>
+      </div>
+    </div>
+    <div id="players" class="row">
+      <div class="col-md-5">
+        <h1>Player 1 <span class="player1-turn"><-- Your Turn!</span></h1>
+        <hr>
+        <p>Current Roll: <span id="player1-current"></span></p>
+        <p>Round Score: <span id="player1-round"></span></p>
+        <p>Total Score: <span id="player1-total"></span></p>
+        <button id="player1-roll" style="margin-right: 5px;" type="button" class="btn btn-primary">Roll</button><button id="player1-hold" type="button" class="btn btn-danger">Hold</button>
+      </div>
+      <div class="col-md-5">
+        <h1>Player 2 <span class="player2-turn"><-- Your Turn!</span></h1>
+        <hr>
+        <p>Current Roll: <span id="player2-current"></span></p>
+        <p>Round Score: <span id="player2-round"></span></p>
+        <p>Total Score: <span id="player2-total"></span></p>
+        <button id="player2-roll" style="margin-right: 5px;" type="button" class="btn btn-primary">Roll</button><button id="player2-hold" type="button" class="btn btn-danger">Hold</button>
+      </div>
+    </div>
+    <div id="winner-p1">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="banner-p1">Player 1 Wins!!</h1>
+        </div>
+      </div>
+    </div>
+    <div id="winner-p2">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="banner-p2">Player 2 Wins!!</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
